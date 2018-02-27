@@ -13,7 +13,7 @@
 
 .method static void main() cil managed
 {
-    .maxstack 2
+    //.maxstack 2
     .entrypoint
     
     ldc.i4 10

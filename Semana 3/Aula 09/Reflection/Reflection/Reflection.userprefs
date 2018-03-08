@@ -1,0 +1,16 @@
+﻿<Properties StartupItem="Reflection/Reflection.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Reflection/1 - Activator/Activator.cs">
+    <Files>
+      <File FileName="Reflection/1 - Activator/Activator.cs" Line="15" Column="26" />
+      <File FileName="Reflection/2 - EventInfo/MyEvent.cs" Line="52" Column="27" />
+      <File FileName="Reflection/4 - Properties/Properties.cs" Line="42" Column="26" />
+      <File FileName="Reflection/4 - Properties/Properties_C#3.0.cs" Line="27" Column="1" />
+      <File FileName="Reflection/4 - Properties/Properties2.cs" Line="24" Column="26" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

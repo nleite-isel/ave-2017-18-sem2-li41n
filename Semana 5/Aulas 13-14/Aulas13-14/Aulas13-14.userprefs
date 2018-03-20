@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{7EC7CCAD-7075-4C3A-995B-1DD131EAF674}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="1 - Ref e Out/StringSwap.cs">
+    <Files>
+      <File FileName="1 - Ref e Out/RefAndOut.cs" Line="28" Column="33" />
+      <File FileName="1 - Ref e Out/StringSwap.cs" Line="19" Column="26" />
+      <File FileName="2 - Box/Box.cs" Line="15" Column="33" />
+      <File FileName="2 - Box/BoxInterfacesValueTypes.cs" Line="23" Column="33" />
+      <File FileName="3 - Identity and Equality/Identity and Equality.cs" Line="13" Column="33" />
+      <File FileName="3 - Identity and Equality/Equals.cs" Line="91" Column="26" />
+      <File FileName="3 - Identity and Equality/opEquality.cs" Line="1" Column="1" />
+      <File FileName="4 - Reflection Emit Intro/ReflectionEmitIntro.cs" Line="11" Column="26" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Aulas13-14 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

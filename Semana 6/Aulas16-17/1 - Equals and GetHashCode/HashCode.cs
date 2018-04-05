@@ -39,7 +39,9 @@ namespace Aulas1617.EqualsandGetHashCode
             // 1. Not a good implementation: Equal but distinct objects have different addresses (hash codes)
             return base.GetHashCode();
             // 2. Return imutable and unique id, ISBN hash code 
-            //return Isbn.GetHashCode();
+             //return Isbn.GetHashCode();
+            // 3. Simulate a hash collision
+            //return 1;
         }
 
         public override string ToString()
@@ -56,9 +58,15 @@ namespace Aulas1617.EqualsandGetHashCode
             // Consider this code that tests two instances of the Book class for equality:
             // Swing Tutorial, 2nd edition
 
-            // 1. Equal but distinct objects have different addresses (hash codes)
+            // In 1., equal but distinct objects have different addresses (hash codes)
+            // In 2., equal but distinct objects have the same hash codes
             Book book1 = new Book("0201914670");
             Book book2 = new Book("0201914670");
+
+            // 3. Simulating a hash collision: different objects with the same hash code. 
+            // Collisions are treated transparently by hash collections
+            //Book book2 = new Book("02");
+
             Console.WriteLine("firstBook = " + book1);
             Console.WriteLine("secondBook = " + book2);
 
@@ -71,9 +79,12 @@ namespace Aulas1617.EqualsandGetHashCode
                 Console.WriteLine("objects are not equal");
             }
             HashSet<Book> hashSet = new HashSet<Book>();
-
-            hashSet.Add(book1);
-            hashSet.Add(book2);
+            bool b1 = hashSet.Add(book1);
+            bool b2 = hashSet.Add(book2);
+            Console.WriteLine("Insert book1 = {0}, insert book2 = {1}", b1, b2);
+            foreach (var b in hashSet) {
+                Console.WriteLine("b = {0}", b);
+            }
 
             // Results
             Console.WriteLine("hashSet.Contains(book1): {0}", hashSet.Contains(book1));
@@ -86,19 +97,36 @@ namespace Aulas1617.EqualsandGetHashCode
 
 // Results
 // 1.
-//firstBook = [Book: Isbn = 0201914670, HashCode = 466873243]
-//secondBook = [Book: Isbn = 0201914670, HashCode = -159754066]
+//firstBook = [Book: Isbn = 0201914670, HashCode = -1745192435]
+//secondBook = [Book: Isbn = 0201914670, HashCode = 1923147552]
 //objects are equal
+//Insert book1 = True, insert book2 = True
+//b = [Book: Isbn = 0201914670, HashCode = -1745192435]
+//b = [Book: Isbn = 0201914670, HashCode = 1923147552]
 //hashSet.Contains(book1): True
 //hashSet.Remove(book1) -> True
 //hashSet.Contains(book1): False
-//hashSet.Contains(book2): True    // PROBLEM: book with this ISBN was already removed from the hashset
+//hashSet.Contains(book2): True  // PROBLEM: book with this ISBN was already removed from the hashset
 
 // 2.
 //firstBook = [Book: Isbn = 0201914670, HashCode = 1441600692]
 //secondBook = [Book: Isbn = 0201914670, HashCode = 1441600692]
 //objects are equal
+//Insert book1 = True, insert book2 = False
+//b = [Book: Isbn = 0201914670, HashCode = 1441600692]
 //hashSet.Contains(book1): True
 //hashSet.Remove(book1) -> True
 //hashSet.Contains(book1): False
-//hashSet.Contains(book2): False
+//hashSet.Contains(book2): False // Book2 was not even inserted
+
+// 3.
+//firstBook = [Book: Isbn = 0201914670, HashCode = 1]
+//secondBook = [Book: Isbn = 02, HashCode = 1]
+//objects are not equal
+//Insert book1 = True, insert book2 = True
+//b = [Book: Isbn = 0201914670, HashCode = 1]
+//b = [Book: Isbn = 02, HashCode = 1]
+//hashSet.Contains(book1): True
+//hashSet.Remove(book1) -> True
+//hashSet.Contains(book1): False
+//hashSet.Contains(book2): True

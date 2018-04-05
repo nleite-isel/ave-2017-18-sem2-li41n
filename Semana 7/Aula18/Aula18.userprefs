@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{B21ECF50-1B70-4DD5-98D4-E272DC20E994}|Default">
+  <MonoDevelop.Ide.ItemProperties.Aula18 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="log/Log/GenLog.cs">
+    <Files>
+      <File FileName="log/Log/GenLog.cs" Line="120" Column="36" />
+      <File FileName="log/UseLog/UseLog.cs" Line="52" Column="2" />
+      <File FileName="log/Log/Log.cs" Line="1" Column="1" />
+      <File FileName="log/Log/RefLog.cs" Line="13" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

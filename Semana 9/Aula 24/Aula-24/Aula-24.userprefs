@@ -1,0 +1,17 @@
+﻿<Properties StartupConfiguration="{F7F21756-40B4-42E3-ABB5-E0B4E116DB97}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="1-Virtual-Call/VirtualCall1.cs">
+    <Files>
+      <File FileName="1-Virtual-Call/VirtualCall.cs" Line="24" Column="35" />
+      <File FileName="1-Virtual-Call/VirtualCall1.cs" Line="32" Column="33" />
+      <File FileName="2-NewSlot-Example/NewSlot.cs" Line="9" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.ItemProperties.Aula-24 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Aulas-22-23 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+</Properties>

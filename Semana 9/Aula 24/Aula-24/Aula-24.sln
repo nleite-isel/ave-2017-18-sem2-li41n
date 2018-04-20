@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aula-24", "Aula-24.csproj", "{F7F21756-40B4-42E3-ABB5-E0B4E116DB97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7F21756-40B4-42E3-ABB5-E0B4E116DB97}.Debug|x86.ActiveCfg = Debug|x86
+		{F7F21756-40B4-42E3-ABB5-E0B4E116DB97}.Debug|x86.Build.0 = Debug|x86
+		{F7F21756-40B4-42E3-ABB5-E0B4E116DB97}.Release|x86.ActiveCfg = Release|x86
+		{F7F21756-40B4-42E3-ABB5-E0B4E116DB97}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal

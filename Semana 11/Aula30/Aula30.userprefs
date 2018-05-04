@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{B929EFA2-2FD0-4C77-8149-01BA794CA201}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="1-EIMI/EIMI.cs">
+    <Files>
+      <File FileName="1-EIMI/Interfaces.cs" Line="36" Column="33" />
+      <File FileName="1-EIMI/EIMI.cs" Line="34" Column="24" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Aula30 PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

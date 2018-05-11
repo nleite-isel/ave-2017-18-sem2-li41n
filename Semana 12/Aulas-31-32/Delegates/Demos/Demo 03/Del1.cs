@@ -55,7 +55,20 @@ namespace Del1
             d(20);
 
             //d = error; // Error, void Del.error(int) has the wrong return type
+            //////
+            DT chain1 = f1;
+            chain1 += f2;
 
+            DT chain2 = p.instance;
+            chain2 += f1;
+
+            DT chain3 = chain1 + chain2;
+
+            Console.WriteLine(chain3(100));
+            Console.WriteLine(chain3.GetInvocationList().Length);
+            chain3 -= f1;
+            Console.WriteLine(chain3(100));
+            Console.WriteLine(chain3.GetInvocationList().Length);
         }
 
     }

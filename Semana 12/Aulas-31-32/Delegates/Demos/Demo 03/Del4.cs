@@ -21,12 +21,13 @@ namespace Del4
             for (Int32 val = from; val <= to; val++)
             {
                 fb(val);
+                //<=>
                 // fb.Invoke(val);
             }
         }
 
-        // Utilizacao de delegate anonimo dentro dum metodo de instancia
-        // Variavel this e' capturada
+        // Utilizacao de delegate anonimo dentro dum metodo de instancia.
+        // A variavel this e' capturada
         private /*static*/ void AnonymousDelegateDemo()
         {
             Console.WriteLine("----- Anonymous Delegate Demo -----");

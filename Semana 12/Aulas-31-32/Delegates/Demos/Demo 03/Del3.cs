@@ -74,11 +74,11 @@ namespace Del3
         {
             Console.WriteLine("----- Anonymous Delegate Demo -----");
 
-            Counter(1, 3, delegate (int value)
-            {
-                Console.WriteLine("Item = " + value.ToString());
-            });
-            Console.WriteLine();
+            //Counter(1, 3, delegate (int value)
+            //{
+            //    Console.WriteLine("Item = " + value.ToString());
+            //});
+            //Console.WriteLine();
 
             // Ou:
             Feedback anonymous = delegate(int value) {
@@ -158,7 +158,7 @@ namespace Del3
             Counter(1, 2, fbChain);
         }
 
-        public static void Main()
+        public static void Main1()
         {
             //StaticDelegateDemo();
             //InstanceDelegateDemo();
@@ -167,7 +167,6 @@ namespace Del3
             //ChainDelegateDemo1(new Program());
             //ChainDelegateDemo2(new Program());
         }
-
 
     }
 }

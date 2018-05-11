@@ -40,6 +40,7 @@
     <Compile Include="Delegates\Demos\Demo 03\Del3.cs" />
     <Compile Include="Delegates\Demos\Demo 03\Del4.cs" />
     <Compile Include="Delegates\Demos\Demo 04\Variance.cs" />
+    <Compile Include="Delegates\Demos\Demo 03\InvocationList.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

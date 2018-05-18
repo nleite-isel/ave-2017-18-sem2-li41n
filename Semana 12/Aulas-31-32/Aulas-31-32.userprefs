@@ -1,14 +1,14 @@
 ﻿<Properties StartupConfiguration="{0BCD2F7F-F035-4730-AA4E-2A3D8EB389AA}|Default">
   <MonoDevelop.Ide.ItemProperties.Aulas-31-32 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Delegates/Demos/Demo 03/InvocationList.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Delegates/Demos/Demo 04/Variance.cs">
     <Files>
       <File FileName="Delegates/Demos/Demo 03/Del1.cs" Line="35" Column="35" />
       <File FileName="Delegates/Demos/Demo 03/Del2.cs" Line="35" Column="33" />
       <File FileName="Delegates/Demos/Demo 03/Del3.cs" Line="173" Column="1" />
       <File FileName="Delegates/Demos/Demo 03/Del4.cs" Line="56" Column="33" />
       <File FileName="Delegates/Demos/Demo 03/AnonymousDelegate.cs" Line="57" Column="29" />
-      <File FileName="Delegates/Demos/Demo 04/Variance.cs" Line="41" Column="29" />
-      <File FileName="Delegates/Demos/Demo 03/InvocationList.cs" Line="38" Column="15" />
+      <File FileName="Delegates/Demos/Demo 04/Variance.cs" Line="43" Column="29" />
+      <File FileName="Delegates/Demos/Demo 03/InvocationList.cs" Line="48" Column="32" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

@@ -11,6 +11,8 @@ delegate void DelegateB(Bike b);
 
 public static class Examples {
     public static Car MethodA() { /* ... */ return new Car(); }
+    //public static void MethodB(object v) { /* ... */ }  // OK
+
     public static void MethodB(Vehicle v) { /* ... */ }  // OK
     //public static void MethodB(Bike b) { /* ... */ } // OK
     //public static void MethodB(Bike1 b) { /* ... */ } // Error, No overload for 'MethodB' matches 'DelegateB'

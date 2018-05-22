@@ -37,6 +37,7 @@
     <Compile Include="Generics\Exercício 02 - Converter\Program.cs" />
     <Compile Include="Generics\OpenAndCloseTypes.cs" />
     <Compile Include="Generics\ArrayCastToIListGeneric.cs" />
+    <Compile Include="nullable.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

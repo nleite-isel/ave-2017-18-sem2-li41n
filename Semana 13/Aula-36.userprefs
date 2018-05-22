@@ -1,10 +1,12 @@
 ﻿<Properties StartupConfiguration="{C3F182D9-42B9-43F0-B475-6E38BA8E4B24}|Default">
   <MonoDevelop.Ide.ItemProperties.Aula-36 PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Generics/Exercicio 01/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="nullable.cs">
     <Files>
-      <File FileName="Generics/OpenAndCloseTypes.cs" Line="35" Column="90" />
-      <File FileName="Generics/ArrayCastToIListGeneric.cs" Line="1" Column="1" />
-      <File FileName="Generics/Exercicio 01/Program.cs" Line="1" Column="1" />
+      <File FileName="Generics/OpenAndCloseTypes.cs" Line="25" Column="33" />
+      <File FileName="Generics/ArrayCastToIListGeneric.cs" Line="12" Column="33" />
+      <File FileName="Generics/Exercicio 01/Program.cs" Line="57" Column="10" />
+      <File FileName="Generics/Exercício 02 - Converter/Program.cs" Line="19" Column="5" />
+      <File FileName="nullable.cs" Line="83" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

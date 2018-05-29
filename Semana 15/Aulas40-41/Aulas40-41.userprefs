@@ -1,0 +1,22 @@
+﻿<Properties StartupConfiguration="{AC8BF727-2504-48D2-A491-BD45FD742070}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Enumeradores e Linq/ExtensionMethods/Program.cs">
+    <Files>
+      <File FileName="Enumeradores lazy/EnumeratorsEager.cs" Line="19" Column="29" />
+      <File FileName="Enumeradores lazy/EnumeratorsLazy.cs" Line="73" Column="33" />
+      <File FileName="Enumeradores lazy/EnumeratorsLazyYield.cs" Line="35" Column="34" />
+      <File FileName="Enumeradores e Linq/ExtensionMethods/ExtensionMethods.cs" Line="20" Column="38" />
+      <File FileName="Enumeradores e Linq/ExtensionMethods/Program.cs" Line="30" Column="19" />
+      <File FileName="Enumeradores e Linq/AlgorithmsWithIterators/Program.cs" Line="20" Column="26" />
+      <File FileName="Enumeradores e Linq/LINQ/ExtensionMethods.cs" Line="6" Column="25" />
+      <File FileName="Enumeradores e Linq/LINQ/CustomersLINQ.cs" Line="12" Column="1" />
+      <File FileName="Enumeradores e Linq/LINQ/CustomersWithoutLINQ.cs" Line="25" Column="32" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Aulas40-41 PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

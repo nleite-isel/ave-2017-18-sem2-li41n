@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{714706D3-81EC-42EF-BF00-2888B0EA1982}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Questoes1-3/Questao3.cs">
+    <Files>
+      <File FileName="Questao 6/ISetter.cs" Line="3" Column="2" />
+      <File FileName="Questao 6/Questao6.cs" Line="16" Column="32" />
+      <File FileName="Questao 6/Verifier.cs" Line="16" Column="10" />
+      <File FileName="Questao 6/Setters.cs" Line="9" Column="41" />
+      <File FileName="Questao 6/Conveyor.cs" Line="23" Column="72" />
+      <File FileName="Questoes1-3/Questao3.cs" Line="27" Column="33" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="AVE_T1_SEM_INV_1718" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.AVE__T1__SEM__INV__1718 PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

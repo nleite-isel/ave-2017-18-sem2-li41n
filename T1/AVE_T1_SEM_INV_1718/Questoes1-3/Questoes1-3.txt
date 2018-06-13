@@ -1,0 +1,18 @@
+﻿
+1-(a) F 
+1-(b) V
+1-(c) V
+1-(d) F
+
+
+2-(a) V
+2-(b) F (Nao e' a instancia de tipo valor que tem cabecalho mas sim objecto que representa a instancia boxed)
+2-(c) F 
+2-(d) F
+
+
+3-(a) V
+3-(b) F
+3-(c) V
+3-(d) F
+

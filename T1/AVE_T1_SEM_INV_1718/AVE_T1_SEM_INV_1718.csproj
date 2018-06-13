@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\NUnit.3.10.1\build\NUnit.props" Condition="Exists('packages\NUnit.3.10.1\build\NUnit.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{714706D3-81EC-42EF-BF00-2888B0EA1982}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>AVE_T1_SEM_INV_1718</RootNamespace>
+    <AssemblyName>AVE_T1_SEM_INV_1718</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ExternalConsole>true</ExternalConsole>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="nunit.framework">
+      <HintPath>packages\NUnit.3.10.1\lib\net45\nunit.framework.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Questao 4\Questao4.cs" />
+    <Compile Include="Questao 5\Questao5.cs" />
+    <Compile Include="Questao 6\Questao6.cs" />
+    <Compile Include="Questao 6\Conveyor.cs" />
+    <Compile Include="Questao 6\ISetter.cs" />
+    <Compile Include="Questao 6\Student.cs" />
+    <Compile Include="Questao 6\Person.cs" />
+    <Compile Include="Questao 6\Company.cs" />
+    <Compile Include="Questao 6\Verifier.cs" />
+    <Compile Include="Questao 6\Setters.cs" />
+    <Compile Include="Questoes1-3\Questao3.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Questao 4\" />
+    <Folder Include="Questao 5\" />
+    <Folder Include="Questao 6\" />
+    <Folder Include="Questoes1-3\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Questoes1-3\Questoes1-3.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

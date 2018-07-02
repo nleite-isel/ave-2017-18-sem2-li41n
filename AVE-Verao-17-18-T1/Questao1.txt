@@ -1,0 +1,39 @@
+﻿1) Considere a definição struct S { int w; String b; } e a expressão S x = new S(); ...
+a) ___ A expressão Console.WriteLine(x) resulta numa operação de box;
+b) ___ A variável x refere um objecto que está alojado no heap se x for uma variável local de um método;
+c) ___ O espaço ocupado pela variável x pode pertencer ao heap;
+d) ___ Se a expressão seguinte for x.b.Length haverá erro de compilação;
+
+2) Considere a definição delegate int D(object o) e a expressão D dm = MyClass.M;
+A variável dm ...
+a) ___ refere um objecto sem htype;
+b) ___ é do tipo MethodInfo, em tempo de execução;
+c) ___ permite a utilização dm.Target.Invoke(null);
+d) ___ pode vir a referir null;
+
+3) Com as classes do espaço de nomes Reflection.Emit …
+a) ___ é possível acrescentar métodos a classes já existentes
+b) ___ o tipo de retorno dos métodos gerados fica definido em tempo de execução do código gerador
+c) ___ as classes geradas podem derivar de 1 ou mais classes e implementar 1 ou mais interfaces
+d) ___ o código gerado pode não chegar a ser executado pelo programa gerador
+
+
+1.
+a) V
+b) F
+c) V
+d) F
+
+2. 
+a) F
+b) F
+c) F
+d) V
+
+3.
+a) F
+b) V
+c) F
+d) V
+
+

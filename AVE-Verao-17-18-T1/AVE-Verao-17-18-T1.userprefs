@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{2A8ACC01-8EFC-49A3-9DB1-FB8DFA26D6A4}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Questao 5/QuestaoGroupBy.cs">
+    <Files>
+      <File FileName="Questao1.txt" Line="12" Column="1" />
+      <File FileName="Questao 4/Questao4.cs" Line="27" Column="33" />
+      <File FileName="Questao 5/QuestaoGroupBy.cs" Line="36" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.ItemProperties.AVE-Verao-17-18-T1 PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>

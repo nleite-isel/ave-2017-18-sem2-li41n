@@ -36,7 +36,7 @@ namespace AVEVerao1718T1.Questao5
 
     public class QuestaoGroupBy
     {
-        public static void Main()
+        public static void Main1()
         {
             IEnumerable<string> words = new string[]
                    { "isel", "k", "ola", "vue", "z", "soup", "kat", "bart" };

@@ -30,14 +30,35 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Data" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Questao 4\Questao4.cs" />
     <Compile Include="Questao 5\QuestaoGroupBy.cs" />
+    <Compile Include="UltimaQuestao\UltimaQuestao.cs" />
+    <Compile Include="UltimaQuestao\Configuration.cs" />
+    <Compile Include="UltimaQuestao\Model\Product.cs" />
+    <Compile Include="UltimaQuestao\Model\Category.cs" />
+    <Compile Include="UltimaQuestao\Model\Supplier.cs" />
+    <Compile Include="UltimaQuestao\Attributes\QueryAttribute.cs" />
+    <Compile Include="UltimaQuestao\Attributes\ConverterAttribute.cs" />
+    <Compile Include="UltimaQuestao\Converters\Converters.cs" />
+    <Compile Include="UltimaQuestao\PropertySetters\IPropertySetter.cs" />
+    <Compile Include="UltimaQuestao\PropertySetters\PropertyPrimitive.cs" />
+    <Compile Include="UltimaQuestao\PropertySetters\PropertyRef.cs" />
+    <Compile Include="UltimaQuestao\PropertySetters\PropertyPrimitiveAttribute.cs" />
+    <Compile Include="UltimaQuestao\PropertySetters\PropertySetterFunc.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Questao1.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UltimaQuestao\" />
+    <Folder Include="UltimaQuestao\data\" />
+    <Folder Include="UltimaQuestao\Attributes\" />
+    <Folder Include="UltimaQuestao\Converters\" />
+    <Folder Include="UltimaQuestao\PropertySetters\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
